@@ -1,0 +1,26 @@
+/*Universal Selector = * */
+/*Tag = h1*/
+/*class = . */
+/*Id = # */
+/*Attribute = [] */
+p{
+    color: red;
+}
+.hi{
+    color: blue;
+}
+#world{
+    color: green;
+}
+#p{
+    color: blueviolet;
+}
+p.pera{
+    color: rgb(4, 230, 22);
+}
+a[href="www.yahoo.com"]{
+    color: red;
+}
+li[title="two"]{
+    color: red
+}
