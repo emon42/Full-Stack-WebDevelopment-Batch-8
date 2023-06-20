@@ -1,36 +1,15 @@
-h4{
-    font-family: 'Li Sabbir Ashalota 1 ANSI V1', sans-serif;
-    font-weight: bold;
-    color: rgba(0, 100, 0, 0.925);
-    font-size: 30px;
-    line-height: 35px;
-    word-spacing: 12px;
-    letter-spacing: 5px;
-    text-shadow: 5px 5px 5px rgb(255, 162, 75);
 
-}
-@font-face {
-    font-family: 'Li Sabbir Ashalota 1 ANSI V1';
-    src: url('./fonts/LiAlinurTumatulANSIV1.woff') format('woff2'),
-        url('./fonts/LiAlinurTumatulANSIV1.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 h2{
-    font-family: 'Li Sabbir Ashalota 1 ANSI V1';
-    font-weight: bold;
-    color: rgba(212, 67, 0, 0.925);
+    font-family: 'CharukolaUltraLight', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 55, 112);
+    text-shadow: 5px 5px 5px;
+}
 
-}
-@font-face {
-    font-family: 'Li Sweet Shreyam ANSI V1';
-    src: url('./fonts2/LiSweetShreyamANSIV1.woff') format('woff2'),
-        url('./fonts2/LiSweetShreyamANSIV1.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-h4{
-    font-family: 'Li Sweet Shreyam ANSI V1';
+h3{
+    font-family: 'Mukti', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 30, 10);
+    text-shadow: 5px 5px 5px;
+
 }
