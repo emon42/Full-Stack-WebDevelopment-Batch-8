@@ -3,31 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS test</title>
+    <title>Class 4</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.maateen.me/mukti/font.css" rel="stylesheet">
-    <link href="https://fonts.maateen.me/charukola-ultra-light/font.css" rel="stylesheet">
+    <style>
+        a.primary{
+            border: 1px solid #007bff;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        a.primary:active{
+                color: green;
+                text-decoration: overline;
+        }
+        a.primary:visited{
+                color: rgb(255, 255, 255);
+        }
+        a.primary:hover{
+                background-color: rgb(255, 255, 255);
+                color: #ff0000;
+        }
+        .circle{
+            margin-top: 40px;
+            width: 300px;
+            height: 300px;
+            background-color: tomato;
+            border-radius: 50%;
+        }
+        .success{
+            padding: 10px 20px;
+            border: 1px solid rgb(240, 3, 3);
+            color: rgb(255, 255, 255);
+            background-color: #ff0000;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .success:hover{
+            background-color: white;
+            color: #007bff;
+        }
+        .success:active{
+            color: green;
+            text-decoration: overline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bangla Font</h1>
-    <div class="">
-        <a href="www.index.html">Home</a>
-        <a href="www.About.html">About</a>
-    <h2>
-        এই ফন্টটিকে আপনি সবরকম ব্যক্তিগত ও ব্যবসায়িক ডিজাইনে ব্যবহার করতে পারবেন কিন্তু ফন্টটির ফাইল অন্য কোনো ওয়েবসাইট,
-         ক্লাউড স্টোরেজ, সামাজিক যোগাযোগ মাধ্যম বা অন্য কোনো মাধ্যমে কোনোভাবেই বিতরণ করতে পারবেন না। 
-         আপনি লিপিঘরের ফন্ট যেকোনো ব্যক্তিগত বা ব্যবসায়িক ডিজাইন সম্পর্কিত কাজে ব্যবহার করতে পারবেন। 
-         কিন্তু কোনো ফন্ট অর্থাৎ ফন্টের TTF ফাইল নিজস্ব ওয়েবসাইট, সামাজিক যোগাযোগ মাধ্যম বা অন্য কোনো মাধ্যমে পুনরায় বিক্রি বা বিতরণ করতে পারবেন না। 
-         ফন্টের নাম, তথ্য ইত্যাদি বিষয় পরিবর্তন করে সেটিকে নিজস্ব সৃষ্টি হিসেবে প্রকাশ করতে পারবেন না।
-         অন্যথায় লিপিঘর আপনার বিরুদ্ধে আইনানুগ ব্যবস্থা গ্রহণ করতে পারে।
-    </h2>
-    <h3>
-        এই ফন্টটিকে আপনি সবরকম ব্যক্তিগত ও ব্যবসায়িক ডিজাইনে ব্যবহার করতে পারবেন কিন্তু ফন্টটির ফাইল অন্য কোনো ওয়েবসাইট,
-         ক্লাউড স্টোরেজ, সামাজিক যোগাযোগ মাধ্যম বা অন্য কোনো মাধ্যমে কোনোভাবেই বিতরণ করতে পারবেন না। 
-         আপনি লিপিঘরের ফন্ট যেকোনো ব্যক্তিগত বা ব্যবসায়িক ডিজাইন সম্পর্কিত কাজে ব্যবহার করতে পারবেন। 
-         কিন্তু কোনো ফন্ট অর্থাৎ ফন্টের TTF ফাইল নিজস্ব ওয়েবসাইট, সামাজিক যোগাযোগ মাধ্যম বা অন্য কোনো মাধ্যমে পুনরায় বিক্রি বা বিতরণ করতে পারবেন না। 
-         ফন্টের নাম, তথ্য ইত্যাদি বিষয় পরিবর্তন করে সেটিকে নিজস্ব সৃষ্টি হিসেবে প্রকাশ করতে পারবেন না।
-         অন্যথায় লিপিঘর আপনার বিরুদ্ধে আইনানুগ ব্যবস্থা গ্রহণ করতে পারে।
-    </h3>
+    <h1>CSS Link</h1>
+    <a href="https://www.google.com"target="blank" class="primary">Google</a>
+    <a href="#" class="success">Success</a>
+    <a href="#" class="block">Block Level Button</a>
 </body>
 </html>
